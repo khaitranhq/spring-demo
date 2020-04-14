@@ -13,11 +13,6 @@ import lombok.*;
 @Entity
 @Table(name = "post")
 public class Post {
-	public Post(String content) {
-		// TODO Auto-generated constructor stub
-		this.content = content;
-	}
-
 	@Id
     @GeneratedValue
     private Long id;
